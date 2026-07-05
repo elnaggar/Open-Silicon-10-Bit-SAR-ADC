@@ -17,8 +17,12 @@ localparam SAMPLE  = 2'd1;
 localparam CONVERT = 2'd2;
 localparam DONE    = 2'd3;
 
+localparam IDX_W = $clog2(N);
+localparam [31:0]      MSB_FULL = N - 1;
+localparam [IDX_W-1:0] MSB_IDX  = MSB_FULL[IDX_W-1:0];   // index of the most-significant bit
+
 reg [1:0]          state;
-reg [$clog2(N)-1:0]  bit_idx;    // 
+reg [IDX_W-1:0]    bit_idx;
 reg [N-1:0]        sar_reg;
 
 always @(posedge clk or negedge rst_n) begin
@@ -29,7 +33,7 @@ always @(posedge clk or negedge rst_n) begin
         dout_valid <= 1'b0;
         busy       <= 1'b0;
         eoc        <= 1'b0;
-        bit_idx    <= N - 1;
+        bit_idx    <= MSB_IDX;
         sar_reg    <= {N{1'b0}};
     end
     else begin
@@ -43,30 +47,30 @@ always @(posedge clk or negedge rst_n) begin
                 if (start) begin
                     state   <= SAMPLE;
                     busy    <= 1'b1;
-                    bit_idx <= N - 1;
+                    bit_idx <= MSB_IDX;
                     sar_reg <= {N{1'b0}};
                 end
             end
 
             SAMPLE: begin
                 state   <= CONVERT;
-                dac_out <= ({N{1'b0}} | (1 << (N-1)));
+                dac_out <= ({{N-1{1'b0}}, 1'b1} << (N-1));
             end
 
             CONVERT: begin
                 // Capture comparator result for current bit
                 if (comp_out)
-                    sar_reg <= sar_reg | ({N{1'b0}} | (1 << bit_idx));
+                    sar_reg <= sar_reg | ({{N-1{1'b0}}, 1'b1} << bit_idx);
 
                 if (bit_idx == 0) begin
                     state   <= DONE;
-                    // ✅ Bug 2 fixed: update dac_out on final bit too
-                    dac_out <= (sar_reg | ({N{1'b0}} | (comp_out << bit_idx)));
+                    // update dac_out on the final bit too
+                    dac_out <= sar_reg | ({{N-1{1'b0}}, comp_out} << bit_idx);
                 end
                 else begin
-                    bit_idx <= bit_idx - 1;
-                    dac_out <= (sar_reg | ({N{1'b0}} | (comp_out << bit_idx)))
-                             | ({N{1'b0}} | (1 << (bit_idx - 1)));
+                    bit_idx <= bit_idx - 1'b1;
+                    dac_out <= (sar_reg | ({{N-1{1'b0}}, comp_out} << bit_idx))
+                             | ({{N-1{1'b0}}, 1'b1} << (bit_idx - 1'b1));
                 end
             end
 
