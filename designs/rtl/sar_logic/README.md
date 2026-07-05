@@ -6,8 +6,8 @@ DAC bit-by-bit (MSB→LSB), reads the analog comparator decision each step, and
 assembles the final N-bit digital code.
 
 It is the digital heart of the [Open-Silicon 10-Bit SAR ADC](../../../README.md).
-The module is fully parameterizable in resolution `N` (default 8; use `N = 10`
-for the target ADC).
+The module is fully parameterizable in resolution `N` (default `10`, matching the
+target ADC).
 
 ---
 
@@ -54,7 +54,7 @@ the comparator compares it against the sampled input `Vin`, and returns the
 
 | Name | Default | Description                          |
 |------|---------|--------------------------------------|
-| `N`  | `8`     | ADC resolution / DAC word width.     |
+| `N`  | `10`    | ADC resolution / DAC word width.     |
 
 ---
 
@@ -109,26 +109,27 @@ Two testbenches are provided:
 ### Icarus Verilog
 
 ```bash
-# Directed smoke test (default N=8)
-iverilog -o sar_sim sar_logic.v tb_sar_logic.v
+# Directed smoke test (default N=10)
+iverilog -g2012 -o sar_sim sar_logic.v tb_sar_logic.v
 vvp sar_sim
 
-# Exhaustive verification at any resolution (e.g. 10-bit)
-iverilog -DN=10 -o deep sar_logic.v tb_deep.v
+# Exhaustive verification (default N=10; all 1024 codes)
+iverilog -g2012 -o deep sar_logic.v tb_deep.v
 vvp deep
 ```
 
 Expected output:
 
 ```
-[PASS] Vin = 128 (0x80) | ADC out = 128
+[PASS] Vin = 512 (0x200) | ADC out = 512
 ...
+[PASS] Vin = 1023 (0x3ff) | ADC out = 1023
    SIMULATION PASSED! (0 Errors)
 ```
 
-`tb_deep.v` defaults to `N=8`; override with `-DN=<width>` at elaboration.
-For `tb_sar_logic.v`, set `parameter N = 10` in the testbench to simulate the
-10-bit configuration.
+`tb_deep.v` defaults to `N=10`; override with `-DN=<width>` at elaboration to
+verify other resolutions. For `tb_sar_logic.v`, change `parameter N` in the
+testbench to simulate a different configuration.
 
 ### Lint (Verilator)
 

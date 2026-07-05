@@ -1,5 +1,5 @@
 module sar_logic #(
-    parameter N = 8
+    parameter N = 10
 )(
     input  wire         clk,
     input  wire         rst_n,

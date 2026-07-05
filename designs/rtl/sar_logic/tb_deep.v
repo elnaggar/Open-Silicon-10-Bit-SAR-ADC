@@ -9,7 +9,7 @@
 //
 module tb_deep;
 `ifndef N
-  `define N 8
+  `define N 10
 `endif
     localparam N = `N;
 
@@ -147,14 +147,14 @@ module tb_deep;
 
         // ---- start ignored while busy ----
         do_reset;
-        Vin = 8'd170 & {N{1'b1}};
+        Vin = 10'b10_1010_1010 & {N{1'b1}};
         @(posedge clk); start = 1; @(posedge clk); start = 0;
         @(posedge clk); // now in SAMPLE/CONVERT
         // pulse spurious start mid-conversion
         @(posedge clk); start = 1; @(posedge clk); start = 0;
         wait (eoc === 1'b1); #1;
         checks = checks + 1;
-        if (dout !== (8'd170 & {N{1'b1}})) begin
+        if (dout !== (10'b10_1010_1010 & {N{1'b1}})) begin
             $display("[FAIL] spurious start corrupted result dout=%0d", dout);
             errors = errors + 1;
         end
