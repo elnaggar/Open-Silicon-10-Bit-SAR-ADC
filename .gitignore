@@ -42,3 +42,9 @@ tools/
 context/
 
 *.gds.backup
+
+# Ignore heavy directories
+designs/rtl/sar_logic/runs/
+designs/rtl/sar_logic/sim_outputs/
+*.vvp
+*.vcd

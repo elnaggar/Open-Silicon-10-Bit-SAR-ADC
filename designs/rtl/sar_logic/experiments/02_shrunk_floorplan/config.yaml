@@ -1,0 +1,96 @@
+# LibreLane RTL-to-GDS config -- SSCS Chipathon 2026 tapeout
+# Design : 10-bit SAR logic controller (hardened macro)
+# PDK    : GlobalFoundries 180nm MCU (gf180mcu)
+#
+# --- INTEGRATION NOTE ---
+# This macro is characterized at 3.3V (matches the 0-3V ADC analog domain).
+# The gf180mcu digital cells are the 5V-tolerant device family (mcu7t5v0),
+# but the timing here is signed off at the 3.3V corners. If this block is
+# integrated onto a 5V digital rail, level-shifting is required at the
+# DAC-switch / control boundary. A 3.3V-characterized macro dropped into a
+# 5V grid is a silent functional bug.
+
+DESIGN_NAME: sar_logic
+
+# --- Sources ---
+VERILOG_FILES: dir::src/sar_logic.v
+
+# --- PDK / standard cells ---
+PDK: gf180mcuD
+STD_CELL_LIBRARY: gf180mcu_fd_sc_mcu7t5v0   # 5V-tolerant device family, 3.3V corners used below
+
+# --- Corners (3.3V) ---
+# The shipped gf180mcuD uses an OpenLane-1-style single-lib PDK config that
+# does not define LibreLane corner tables for this library, so we define them
+# explicitly here. Do NOT delete this block thinking it's redundant -- without
+# it, LIB resolves empty and synthesis (dfflibmap) fails with no -liberty.
+# (If you later move to a PDK build matching your LibreLane version, these
+#  corners may be inherited natively and this block can be removed.)
+DEFAULT_CORNER: nom_tt_025C_3v30
+STA_CORNERS:
+  - nom_tt_025C_3v30
+  - nom_ff_n40C_3v60
+  - nom_ss_125C_3v00
+LIB:
+  "nom_tt_025C_3v30": [pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_3v30.lib]
+  "nom_ff_n40C_3v60": [pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ff_n40C_3v60.lib]
+  "nom_ss_125C_3v00": [pdk_dir::libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ss_125C_3v00.lib]
+
+# --- Clocking ---
+# 80 ns = 12.5 MHz. A 10-bit SAR needs ~12 clocks/conversion (1 sample-cycle
+# + 10 bit-trials + ~1 overhead). At the 1 MS/s top-end sample rate that's
+# ~12 MHz, so 80 ns covers it with margin. It also gives the analog half of
+# the ADC (comparator decision + DAC settling) adequate time per bit-trial --
+# the analog settling requirement, not the digital logic, is the real floor
+# on this period.
+CLOCK_PORT: clk
+CLOCK_PERIOD: 80                            # ns  (12.5 MHz)
+PNR_SDC_FILE: dir::base.sdc
+SIGNOFF_SDC_FILE: dir::base.sdc
+
+
+
+# Max fanout limit relaxed to 15 (previously 6) to avoid over-buffering
+MAX_FANOUT_CONSTRAINT: 15
+
+# --- Floorplan: auto-size from utilization ---
+# Deliberately loose: CTS + hold-fixing add buffers *after* initial placement,
+# and a small macro like this has little slack to legalize them into otherwise.
+# Timing closes comfortably at 80 ns, so there's no pressure to tighten these.
+FP_SIZING: relative
+FP_CORE_UTIL: 35
+PL_TARGET_DENSITY_PCT: 45
+IO_PIN_ORDER_CFG: dir::pin_order.cfg
+PDN_CORE_RING : true
+PDN_CORE_RING_HWIDTH: 2.0
+PDN_CORE_RING_VWIDTH: 2.0
+PDN_CORE_RING_HSPACING: 1.5
+PDN_CORE_RING_VSPACING: 1.5
+PDN_CORE_RING_HOFFSET: 1.0
+PDN_CORE_RING_VOFFSET: 1.0
+
+# --- Placement padding: leaves room for later insertions (diodes, hold buffers) ---
+GPL_CELL_PADDING: 3
+DPL_CELL_PADDING: 3
+
+# --- Power distribution (macro power grid) ---
+PDN_MULTILAYER: true                      # renamed from FP_PDN_MULTILAYER
+# NOTE: if the PDN report shows "no straps" because the macro is tiny,
+# reduce the strap pitch, e.g.:
+# Set these pitches smaller than the width/height of your macro
+FP_PDN_HPITCH: 15.0  
+FP_PDN_VPITCH: 15.0  
+# Ensure the straps have defined widths
+FP_PDN_VWIDTH: 1.5
+FP_PDN_HWIDTH: 1.5
+
+# --- Antenna mitigation (needed for clean antenna signoff) ---
+RUN_ANTENNA_REPAIR: true                    # renamed from GRT_REPAIR_ANTENNAS
+RUN_HEURISTIC_DIODE_INSERTION: true
+DIODE_ON_PORTS: in
+
+# --- Sign-off checks (tapeout: every one of these must be CLEAN) ---
+RUN_LINTER: true
+RUN_MAGIC_DRC: true
+RUN_KLAYOUT_DRC: true                      # gf180mcuD ships no KLayout runset -> use Magic
+RUN_LVS: true

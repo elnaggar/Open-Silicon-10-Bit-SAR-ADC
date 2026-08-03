@@ -175,3 +175,23 @@ The design has been **exhaustively verified** (every input code) for
 | `tb_sar_logic.v`  | Directed self-checking testbench.            |
 | `tb_deep.v`       | Exhaustive self-checking verification bench. |
 | `sar_sim.vcd`     | Example waveform dump (view in GTKWave).     |
+
+---
+
+## Tapeout Signoff Status (SSCS Chipathon 2026)
+
+The design has successfully achieved tapeout-ready status using the IIC-OSIC tools and OpenLane.
+
+**Selected Tapeout Experiment:** `03_fix_slew_fanout` (Run: `RUN_2026-08-03_14-41-15`)
+
+This experiment is the best candidate for tapeout because it strictly satisfies all timing and DRC constraints with excellent margins.
+
+### Signoff Results:
+- **Timing (STA)**: ✅ PASSED (+46ns Setup Slack, 0 Max Slew violations, 0 Max Cap violations).
+- **Post-Layout GLS**: ✅ PASSED (Zero-delay functional simulation on the synthesized gate-level netlist is completely clean).
+- **LVS (Layout vs Schematic)**: ✅ PASSED
+- **DRC (Design Rule Checks)**: ✅ PASSED
+- **ARC (Antenna Rules)**: ✅ PASSED
+
+*The final signoff reports are located in `runs/RUN_2026-08-03_14-41-15/77-misc-reportmanufacturability/manufacturability.rpt` and `runs/RUN_2026-08-03_14-41-15/56-openroad-stapostpnr/nom_ss_125C_3v00/checks.rpt`.*
+
