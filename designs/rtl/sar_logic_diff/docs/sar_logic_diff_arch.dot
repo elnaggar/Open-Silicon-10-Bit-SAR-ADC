@@ -1,0 +1,103 @@
+digraph SAR_DIFF_Architecture {
+    rankdir=LR;
+    node [fontname="Helvetica", shape=box];
+    edge [fontname="Helvetica", fontsize=10];
+    
+    subgraph cluster_inputs {
+        label="Inputs";
+        style=dashed;
+        clk [shape=rarrow, fillcolor=lightgray, style=filled];
+        rst_n [shape=rarrow, fillcolor=lightgray, style=filled];
+        start [shape=rarrow, fillcolor=lightgray, style=filled];
+        comp_out [shape=rarrow, fillcolor=lightgray, style=filled];
+    }
+
+    subgraph cluster_outputs_digital {
+        label="Digital Outputs";
+        style=dashed;
+        eoc [shape=rarrow, fillcolor=lightgray, style=filled];
+        busy [shape=rarrow, fillcolor=lightgray, style=filled];
+        dout_valid [shape=rarrow, fillcolor=lightgray, style=filled];
+        dout_port [shape=rarrow, fillcolor=lightgray, style=filled, label="dout[N-1:0]"];
+    }
+
+    subgraph cluster_outputs_analog {
+        label="Analog Control Outputs";
+        style=dashed; color=darkred;
+        samp_top_port [shape=rarrow, fillcolor=mistyrose, style=filled, label="samp_top"];
+        samp_bot_port [shape=rarrow, fillcolor=mistyrose, style=filled, label="samp_bot"];
+        cmp_rst_port [shape=rarrow, fillcolor=mistyrose, style=filled, label="cmp_rst"];
+        cmp_clk_port [shape=rarrow, fillcolor=mistyrose, style=filled, label="cmp_clk"];
+        dac_p_port [shape=rarrow, fillcolor=mistyrose, style=filled, label="dac_p[N-1:0]"];
+        dac_n_port [shape=rarrow, fillcolor=mistyrose, style=filled, label="dac_n[N-1:0]"];
+    }
+
+    subgraph cluster_control {
+        label="Control Path";
+        style=filled; fillcolor=aliceblue; color=blue;
+        ControlUnit [shape=box, fillcolor=lightblue, style="filled,rounded", label="FSM & Control Logic\n(IDLE|TRACK|HOLD_T|HOLD_B\nSETTLE|CMP|LATCH|DONE)"];
+    }
+
+    subgraph cluster_datapath {
+        label="Datapath";
+        style=filled; fillcolor=honeydew; color=green;
+        bit_idx [shape=box, fillcolor=lightgreen, style="filled,rounded", label="Bit Counter\nbit_idx"];
+        cnt [shape=box, fillcolor=lightgreen, style="filled,rounded", label="Phase Counter\ncnt"];
+        sar_reg [shape=box, fillcolor=lightgreen, style="filled,rounded", label="SAR Register\nsar_reg"];
+        trial [shape=box, fillcolor=lightgreen, style="filled,rounded", label="Trial Code Reg\ntrial"];
+        dout_reg [shape=box, fillcolor=lightgreen, style="filled,rounded", label="Data Output Reg\ndout"];
+    }
+
+    subgraph cluster_diff_logic {
+        label="Differential Logic";
+        style=filled; fillcolor=lavender; color=purple;
+        diff_gen [shape=box, fillcolor=plum1, style="filled,rounded", label="Diff. Complement\ndac_p = trial\ndac_n = ~trial"];
+    }
+
+    // Input routing
+    start -> ControlUnit;
+    comp_out -> sar_reg [label="comp_out", style=bold];
+
+    // Control to Datapath
+    ControlUnit -> bit_idx [label="ld_MSB / dec", color=blue, fontcolor=blue, style=dashed];
+    ControlUnit -> cnt [label="clr / inc", color=blue, fontcolor=blue, style=dashed];
+    ControlUnit -> sar_reg [label="clr / set_bit", color=blue, fontcolor=blue, style=dashed];
+    ControlUnit -> trial [label="update_trial", color=blue, fontcolor=blue, style=dashed];
+    ControlUnit -> dout_reg [label="load_val", color=blue, fontcolor=blue, style=dashed];
+    
+    // Feedback from Datapath to Control
+    bit_idx -> ControlUnit [label="bit_idx == 0", color=red, fontcolor=red, style=bold];
+    cnt -> ControlUnit [label="cnt == limit", color=red, fontcolor=red, style=bold];
+
+    // Datapath internal routing
+    bit_idx -> sar_reg [label="idx", style=bold];
+    bit_idx -> trial [label="idx", style=bold];
+    sar_reg -> trial [label="sar_reg", style=bold];
+    sar_reg -> dout_reg [label="sar_reg", style=bold];
+
+    // Trial to differential logic
+    trial -> diff_gen [label="trial", style=bold];
+
+    // Analog control outputs from FSM
+    ControlUnit -> samp_top_port [color=darkred, fontcolor=darkred];
+    ControlUnit -> samp_bot_port [color=darkred, fontcolor=darkred];
+    ControlUnit -> cmp_rst_port [color=darkred, fontcolor=darkred];
+    ControlUnit -> cmp_clk_port [color=darkred, fontcolor=darkred];
+
+    // Digital outputs
+    ControlUnit -> eoc [color=blue];
+    ControlUnit -> busy [color=blue];
+    ControlUnit -> dout_valid [color=blue];
+    diff_gen -> dac_p_port [style=bold];
+    diff_gen -> dac_n_port [style=bold];
+    dout_reg -> dout_port [style=bold];
+    
+    // Global clock/reset routing
+    clk -> ControlUnit [style=dotted, color=gray];
+    rst_n -> ControlUnit [style=dotted, color=gray];
+    clk -> bit_idx [style=dotted, color=gray];
+    clk -> cnt [style=dotted, color=gray];
+    clk -> sar_reg [style=dotted, color=gray];
+    clk -> trial [style=dotted, color=gray];
+    clk -> dout_reg [style=dotted, color=gray];
+}

@@ -1,0 +1,35 @@
+digraph SAR_DIFF_FSM {
+    rankdir=LR;
+    node [shape = circle, style=filled, fillcolor=lightblue, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=10];
+    
+    IDLE    [label="IDLE\n(000)"];
+    TRACK   [label="TRACK\n(001)"];
+    HOLD_T  [label="HOLD_T\n(010)"];
+    HOLD_B  [label="HOLD_B\n(011)"];
+    SETTLE  [label="SETTLE\n(100)"];
+    CMP     [label="CMP\n(101)"];
+    LATCH   [label="LATCH\n(110)"];
+    DONE    [label="DONE\n(111)"];
+    
+    IDLE   -> IDLE    [label = "!start"];
+    IDLE   -> TRACK   [label = "start"];
+    
+    TRACK  -> TRACK   [label = "cnt < ACQ-1"];
+    TRACK  -> HOLD_T  [label = "cnt == ACQ-1"];
+    
+    HOLD_T -> HOLD_B;
+    
+    HOLD_B -> SETTLE;
+    
+    SETTLE -> SETTLE  [label = "cnt < SETTLE-1"];
+    SETTLE -> CMP     [label = "cnt == SETTLE-1"];
+    
+    CMP    -> CMP     [label = "cnt < CMP-1"];
+    CMP    -> LATCH   [label = "cnt == CMP-1"];
+    
+    LATCH  -> SETTLE  [label = "bit_idx > 0"];
+    LATCH  -> DONE    [label = "bit_idx == 0"];
+    
+    DONE   -> IDLE;
+}
