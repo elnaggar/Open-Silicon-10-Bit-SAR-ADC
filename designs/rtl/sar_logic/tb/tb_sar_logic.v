@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 
 module tb_sar_logic;
-    parameter N = 8;
+    parameter N = 10;
 
     // Testbench signals
     reg            clk;
@@ -102,22 +102,22 @@ module tb_sar_logic;
         $display("   Starting SAR ADC Testbench   ");
         $display("========================================");
 
-        // Test Case 1: Mid-scale
-        test_voltage(8'd128);
+        // Test Case 1: Mid-scale (10-bit: half of 1024)
+        test_voltage(10'd512);
 
-        // Test Case 2: User's original test
-        test_voltage(8'hA5);
+        // Test Case 2: Alternating-bit pattern
+        test_voltage(10'h2A5);
 
         // Test Case 3: Zero scale (Edge Case)
-        test_voltage(8'd0);
+        test_voltage(10'd0);
 
-        // Test Case 4: Full scale (Edge Case)
-        test_voltage(8'd255);
+        // Test Case 4: Full scale (Edge Case: 2^10 - 1)
+        test_voltage(10'd1023);
 
-        // Test Case 5: Random values
-        test_voltage(8'd42);
-        test_voltage(8'd199);
-        test_voltage(8'd7);
+        // Test Case 5: Random values across the 10-bit range
+        test_voltage(10'd42);
+        test_voltage(10'd777);
+        test_voltage(10'd7);
 
         // Final Report
         $display("========================================");

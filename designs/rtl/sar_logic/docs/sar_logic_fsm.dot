@@ -1,0 +1,20 @@
+digraph SAR_FSM {
+    rankdir=LR;
+    node [shape = circle, style=filled, fillcolor=lightblue, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=10];
+    
+    IDLE [label="IDLE\n(00)"];
+    SAMPLE [label="SAMPLE\n(01)"];
+    CONVERT [label="CONVERT\n(10)"];
+    DONE [label="DONE\n(11)"];
+    
+    IDLE -> SAMPLE [label = "start"];
+    IDLE -> IDLE [label = "!start"];
+    
+    SAMPLE -> CONVERT;
+    
+    CONVERT -> CONVERT [label = "bit_idx > 0"];
+    CONVERT -> DONE [label = "bit_idx == 0"];
+    
+    DONE -> IDLE;
+}
