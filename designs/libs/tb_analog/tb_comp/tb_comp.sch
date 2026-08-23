@@ -135,13 +135,13 @@ C {lab_wire.sym} 110 -440 0 0 {name=p3 sig_type=std_logic lab=clk}
 C {lab_wire.sym} 570 -500 0 0 {name=p4 sig_type=std_logic lab=vdd}
 C {lab_wire.sym} 550 -480 0 0 {name=p5 sig_type=std_logic lab=raw_voutp}
 C {lab_wire.sym} 500 -460 2 0 {name=p6 sig_type=std_logic lab=raw_voutn}
-C {sscs-chipathon-2026/designs/libs/core_analog/comp/comp.sym} 330 -470 0 0 {name=x2}
 C {lab_wire.sym} 1280 -300 0 0 {name=p7 sig_type=std_logic lab=buf_voutn}
 C {lab_wire.sym} 1880 -360 0 0 {name=p8 sig_type=std_logic lab=buf_voutp}
-C {sscs-chipathon-2026/designs/libs/core_analog/inv_x1/inv_x1.sym} 720 -350 0 0 {name=x1}
-C {sscs-chipathon-2026/designs/libs/core_analog/inv_x3/inv_x3.sym} 1040 -330 0 0 {name=x3}
-C {sscs-chipathon-2026/designs/libs/core_analog/inv_x1/inv_x1.sym} 1360 -380 0 0 {name=x4}
-C {sscs-chipathon-2026/designs/libs/core_analog/inv_x3/inv_x3.sym} 1680 -360 0 0 {name=x5}
-C {sscs-chipathon-2026/designs/libs/core_analog/nand_SR_latch/nand_SR_latch.sym} 1550 -130 0 0 {name=x6}
 C {lab_wire.sym} 1860 -140 2 0 {name=p9 sig_type=std_logic lab=comp_decision}
 C {lab_wire.sym} 1760 -120 2 0 {name=p10 sig_type=std_logic lab=comp_decision_b}
+C {Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/comp/comp.sym} 330 -470 0 0 {name=x7}
+C {Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/inv_x1/inv_x1.sym} 720 -350 0 0 {name=x2}
+C {Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/inv_x3/inv_x3.sym} 1040 -330 0 0 {name=x1}
+C {Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/inv_x1/inv_x1.sym} 1360 -380 0 0 {name=x3}
+C {Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/inv_x3/inv_x3.sym} 1680 -360 0 0 {name=x4}
+C {Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/nand_SR_latch/nand_SR_latch.sym} 1550 -130 0 0 {name=x5}
