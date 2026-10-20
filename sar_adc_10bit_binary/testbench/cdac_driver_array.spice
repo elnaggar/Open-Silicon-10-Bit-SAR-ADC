@@ -1,0 +1,60 @@
+* Open-Silicon-SAR-ADC
+* Gulu, Ankur Gupta, Ahmed Elnaggar
+* Author: Ahmed Elnaggar
++ sch_path: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/cdac/cdac_driver_array.sch
+.subckt cdac_driver_array VDD OUT[9] OUT[8] OUT[7] OUT[6] OUT[5] OUT[4] OUT[3] OUT[2] OUT[1] OUT[0]
++ IN[9] IN[8] IN[7] IN[6] IN[5] IN[4] IN[3] IN[2] IN[1] IN[0] VSS
+*.ipin IN[9] IN[8] IN[7] IN[6] IN[5] IN[4] IN[3] IN[2] IN[1] IN[0]
+*.opin OUT[9] OUT[8] OUT[7] OUT[6] OUT[5] OUT[4] OUT[3] OUT[2] OUT[1] OUT[0]
+*.iopin VDD
+*.iopin VSS
+x1 VDD IN[0] OUT[0] VSS bp_buffer_medium
+x2 VDD IN[1] OUT[1] VSS bp_buffer_medium
+x3 VDD IN[2] OUT[2] VSS bp_buffer_medium
+x4 VDD IN[3] OUT[3] VSS bp_buffer_medium
+x5 VDD IN[4] OUT[4] VSS bp_buffer_medium
+x6 VDD IN[5] OUT[5] VSS bp_buffer_medium
+x7 VDD IN[6] OUT[6] VSS bp_buffer_medium
+x8 VDD IN[7] OUT[7] VSS bp_buffer_large
+x9 VDD IN[8] OUT[8] VSS bp_buffer_large
+x10 VDD IN[9] OUT[9] VSS bp_buffer_large
+.ends
+
++ expanding   symbol:  bp_buffer_medium.sym # of pins=4
++ sym_path: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/cdac/bp_buffer_medium.sym
++ sch_path: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/cdac/bp_buffer_medium.sch
+.subckt bp_buffer_medium VDD IN OUT VSS
+*.ipin IN
+*.opin OUT
+*.iopin VDD
+*.iopin VSS
+XM3 net1 IN VDD VDD pfet_03v3 L=0.28u W=6u nf=2 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM4 net1 IN VSS VSS nfet_03v3 L=0.28u W=2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM1 OUT net1 VDD VDD pfet_03v3 L=0.28u W=30u nf=10 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM2 OUT net1 VSS VSS nfet_03v3 L=0.28u W=10u nf=10 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+.ends
+
+
++ expanding   symbol:  bp_buffer_large.sym # of pins=4
++ sym_path: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/cdac/bp_buffer_large.sym
++ sch_path: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/libs/core_analog/cdac/bp_buffer_large.sch
+.subckt bp_buffer_large VDD IN OUT VSS
+*.ipin IN
+*.opin OUT
+*.iopin VDD
+*.iopin VSS
+XM3 net1 IN VDD VDD pfet_03v3 L=0.28u W=6u nf=2 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=4
+XM4 net1 IN VSS VSS nfet_03v3 L=0.28u W=2u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=4
+XM1 OUT net1 VDD VDD pfet_03v3 L=0.28u W=30u nf=10 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=4
+XM2 OUT net1 VSS VSS nfet_03v3 L=0.28u W=10u nf=10 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=4
+.ends
+
+.end

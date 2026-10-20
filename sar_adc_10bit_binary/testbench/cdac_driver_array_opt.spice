@@ -1,0 +1,22 @@
+* Open-Silicon-SAR-ADC
+* Gulu, Ankur Gupta, Ahmed Elnaggar
+* Author: Ahmed Elnaggar
+* cdac_driver_array_opt — chosen by optimize_drivers.py
+* Swept buffer_m = max(1, cap_m // k) against BOTH settling
+* and reference droop at R_buf=0.1 ohm, C_dec=20 nF.
+* Selected k=384: 10 units/side, 100.0% settled, 0.4300 mV droop
+*
+* cdac_driver_array_opt — buffer m = max(1, cap_m // 384)
+* total drive: 10 medium-buffer units per side
+.subckt cdac_driver_array_opt VDD SW_OUT[9] SW_OUT[8] SW_OUT[7] SW_OUT[6] SW_OUT[5] SW_OUT[4] SW_OUT[3] SW_OUT[2] SW_OUT[1] SW_OUT[0] IN[9] IN[8] IN[7] IN[6] IN[5] IN[4] IN[3] IN[2] IN[1] IN[0] VSS
+xb0 VDD IN[0] SW_OUT[0] VSS bp_buffer_medium m=1   $ cap m=1
+xb1 VDD IN[1] SW_OUT[1] VSS bp_buffer_medium m=1   $ cap m=2
+xb2 VDD IN[2] SW_OUT[2] VSS bp_buffer_medium m=1   $ cap m=4
+xb3 VDD IN[3] SW_OUT[3] VSS bp_buffer_medium m=1   $ cap m=8
+xb4 VDD IN[4] SW_OUT[4] VSS bp_buffer_medium m=1   $ cap m=16
+xb5 VDD IN[5] SW_OUT[5] VSS bp_buffer_medium m=1   $ cap m=32
+xb6 VDD IN[6] SW_OUT[6] VSS bp_buffer_medium m=1   $ cap m=64
+xb7 VDD IN[7] SW_OUT[7] VSS bp_buffer_medium m=1   $ cap m=128
+xb8 VDD IN[8] SW_OUT[8] VSS bp_buffer_medium m=1   $ cap m=256
+xb9 VDD IN[9] SW_OUT[9] VSS bp_buffer_medium m=1   $ cap m=512
+.ends cdac_driver_array_opt
