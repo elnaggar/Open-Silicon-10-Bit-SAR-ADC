@@ -1,0 +1,86 @@
+# ----- ------ ----- ----- ------ ----- ----- ------ -----
+# Chipathon 2026: Project configuration
+# LICENSE: Apache License Version 2.0
+# http://www.apache.org/licenses/
+# ----- ------ ----- ----- ------ ----- ----- ------ -----
+# data will be pulled from main branch of the repo.
+# please be sure that the main branch contains the data you want to submit.
+# This file will be updated with more information later
+# ======================================================
+# Project metadata (used for documentation / review)
+# ======================================================
+project:
+  title: "10 bit SAR ADC"
+  team: "Open Silicon"
+  discord: "Gulu"
+  description: "A 10-bit SAR ADC targeting 500 kS/s to 1 MS/s operation at 3.3 V, integrating a bootstrapped switch, C-DAC, comparator, SAR logic, and top-level I/O"
+  lvs_config: "./designs/libs/lvs_config.json"
+  gf_def_ready: true
+  ws_def_ready: true
+  drc_ready: false # on block level, top level is pending
+  lvs_ready: false # on block level, top level is pending
+# ======================================================
+# I/O pin configuration
+# ======================================================
+pins:
+  # ------------------------------------------------------
+  # 1. Digital Power
+  # ------------------------------------------------------
+  - name: DVDD
+    io_type: power
+  - name: DVSS
+    io_type: ground
+  # ------------------------------------------------------
+  # 2. Digital Signals
+  # ------------------------------------------------------
+  - name: CLK
+    io_type: input_schmitt
+  - name: START
+    io_type: input_cmos
+  - name: RESET_N
+    io_type: input_cmos
+  - name: DOUT0
+    io_type: bidirectional
+  - name: DOUT1
+    io_type: bidirectional
+  - name: DOUT2
+    io_type: bidirectional
+  - name: DOUT3
+    io_type: bidirectional
+  - name: DOUT4
+    io_type: bidirectional
+  - name: DOUT5
+    io_type: bidirectional
+  - name: DOUT6
+    io_type: bidirectional
+  - name: DOUT7
+    io_type: bidirectional
+  - name: DOUT8
+    io_type: bidirectional
+  - name: DOUT9
+    io_type: bidirectional
+  - name: EOC
+    io_type: bidirectional
+  - name: BUSY
+    io_type: bidirectional
+  - name: DOUT_VALID
+    io_type: bidirectional
+  # ------------------------------------------------------
+  # 3. Analog Power
+  # ------------------------------------------------------
+  - name: AVDD
+    io_type: power
+  - name: AVSS
+    io_type: ground
+  # ------------------------------------------------------
+  # 4. Analog Signals
+  # ------------------------------------------------------
+  - name: VINP
+    io_type: analog
+  - name: VINN
+    io_type: analog
+  - name: VREFP
+    io_type: analog
+  - name: VCM
+    io_type: analog
+  # ------------------------------------------------------
