@@ -2,10 +2,10 @@
 # Usage (host): scripts/run_pex.sh
 # Magic parasitic extraction (area/fringe/coupling C, ngspice format) for all variants, run inside the container.
 # Output: macro_deliverables/<variant>/pex/sar_logic_diff.pex.spice  (SPEF with RC is in <variant>/spef/)
-docker exec iic-osic-tools_chipathon_xserver_uid_1000 bash -lc '
+docker exec iic-osic-tools_chipathon_xserver_uid_1000 bash -lc 'set -- '"$*"';
 BASE=/foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff
 RC=/foss/pdks/gf180mcuD/libs.tech/magic/gf180mcuD.magicrc
-for V in A_136x154_util45 B_75x430 C_71x430; do
+for V in ${@:-A_136x154_util45 B_75x430 C_71x430}; do
   D=$BASE/macro_deliverables/$V/pex; rm -rf $D; mkdir -p $D; cd $D
   cat > pex.tcl <<EOT
 gds read $BASE/macro_deliverables/$V/gds/sar_logic_diff.gds

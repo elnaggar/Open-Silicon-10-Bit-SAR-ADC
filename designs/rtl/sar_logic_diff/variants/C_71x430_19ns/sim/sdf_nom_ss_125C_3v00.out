@@ -1,0 +1,59 @@
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/sim/wrap_nom_ss_125C_3v00.v:3: $sdf_annotate currently only uses the first two argument.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3543: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3573: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3603: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3633: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3663: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3693: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3723: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3753: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3783: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3813: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3843: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3873: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3903: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3933: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3963: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:3993: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4023: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4053: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4083: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4113: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4143: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4173: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4203: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4233: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4263: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4293: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4323: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4353: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4383: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4413: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4443: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4473: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4503: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4533: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4563: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4593: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4623: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4653: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4683: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4713: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4743: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4773: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4803: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4833: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4863: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4893: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4923: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4953: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:4983: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:5013: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:5043: TIMINGCHECK not supported.
+SDF WARNING: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/C_71x430_19ns/runs/r2/final/sdf/nom_ss_125C_3v00/sar_logic_diff__nom_ss_125C_3v00.sdf:5073: TIMINGCHECK not supported.
+[INFO] N=10 exhaustive done. fixed latency(start->eoc)=52 cycles, checks=1024
+==================================================
+  DEEP VERIFY PASSED  (N=10, 1027 checks, 0 errors)
+FUNCTIONAL GLS PASSED
+==================================================
+tb/tb_diff.v:177: $finish called at 1054871500 (1ps)

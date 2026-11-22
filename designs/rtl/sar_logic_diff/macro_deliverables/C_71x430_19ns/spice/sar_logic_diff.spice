@@ -1,0 +1,1866 @@
+* NGSPICE file created from sar_logic_diff.ext - technology: gf180mcuD
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__antenna abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__antenna I VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__filltie abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__filltie VDD VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fillcap_32 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fillcap_32 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nor2_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nor2_1 A1 A2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__dffrnq_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__dffrnq_1 D RN CLK Q VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fill_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fill_1 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fillcap_8 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fillcap_8 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai21_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai21_1 A1 A2 B ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nand2_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nand2_1 A1 A2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__aoi21_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__aoi21_1 A1 A2 B ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__endcap abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__endcap VDD VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fillcap_4 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fillcap_4 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fill_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fill_2 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fillcap_16 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fillcap_16 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__buf_3 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__buf_3 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__buf_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__buf_2 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nor3_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nor3_1 A1 A2 A3 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__aoi211_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__aoi211_1 A1 A2 B C ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__fillcap_64 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__fillcap_64 VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__or4_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__or4_1 A1 A2 A3 A4 Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__dffsnq_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__dffsnq_1 D SETN CLK Q VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nand3_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nand3_1 A1 A2 A3 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai22_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai22_1 A1 A2 B1 B2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__aoi22_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__aoi22_1 A1 A2 B1 B2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nor2_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nor2_2 A1 A2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__buf_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__buf_1 I Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__xor2_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__xor2_1 A1 A2 Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nor4_4 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nor4_4 A1 A2 A3 A4 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__mux2_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__mux2_2 I0 I1 S Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nor4_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nor4_2 A1 A2 A3 A4 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nand4_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nand4_1 A1 A2 A3 A4 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__or4_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__or4_2 A1 A2 A3 A4 Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__clkinv_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__clkinv_1 I ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__aoi221_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__aoi221_1 A1 A2 B1 B2 C ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai31_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai31_1 A1 A2 A3 B ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai221_4 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai221_4 A1 A2 B1 B2 C ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__and3_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__and3_1 A1 A2 A3 Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__and2_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__and2_1 A1 A2 Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__inv_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__inv_2 I ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__aoi211_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__aoi211_2 A1 A2 B C ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__or3_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__or3_1 A1 A2 A3 Z VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__nor3_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__nor3_2 A1 A2 A3 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__aoi221_2 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__aoi221_2 A1 A2 B1 B2 C ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai211_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai211_1 A1 A2 B C ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai32_4 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai32_4 A1 A2 A3 B1 B2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__oai22_4 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__oai22_4 A1 A2 B1 B2 ZN VDD VNW VPW VSS
+.ends
+
+* Black-box entry subcircuit for gf180mcu_fd_sc_mcu7t5v0__or2_1 abstract view
+.subckt gf180mcu_fd_sc_mcu7t5v0__or2_1 A1 A2 Z VDD VNW VPW VSS
+.ends
+
+.subckt sar_logic_diff VDD VSS busy clk cmp_clk cmp_rst comp_out dac_n[0] dac_n[1]
++ dac_n[2] dac_n[3] dac_n[4] dac_n[5] dac_n[6] dac_n[7] dac_n[8] dac_n[9] dac_p[0]
++ dac_p[1] dac_p[2] dac_p[3] dac_p[4] dac_p[5] dac_p[6] dac_p[7] dac_p[8] dac_p[9]
++ dout[0] dout[1] dout[2] dout[3] dout[4] dout[5] dout[6] dout[7] dout[8] dout[9]
++ dout_valid eoc rst_n samp_bot samp_top start
+XANTENNA_fanout56_I _380_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_64_275 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_93_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+X_294_ _298_/A1 _209_/Z _296_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_363_ _363_/D wire72/Z _366_/CLK _363_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XTAP_TAPCELL_ROW_93_304 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XANTENNA_fanout92_Z fanout92/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_88_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_37_84 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_346_ _346_/D _347_/RN _378_/CLK _346_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_53_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_277_ _277_/A1 _277_/A2 _277_/B _364_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_78_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XTAP_TAPCELL_ROW_34_245 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+X_200_ _257_/A2 _200_/A2 _377_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_90_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_90_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_329_ _329_/A1 _328_/Z _329_/B _347_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XPHY_EDGE_ROW_104_Right_104 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_9_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_9_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xclkbuf_3_1_0_clk clkbuf_0_clk/Z clkbuf_3_1_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XFILLER_43_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_100_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_69_49 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_fanout55_Z _321_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_18_53 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_50_62 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkbuf_4_2__f_clk clkbuf_3_1_0_clk/Z _366_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+Xload_slew96 _289_/A2 _317_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_3
+Xload_slew85 wire86/Z _357_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xload_slew41 _282_/A2 _273_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
+XFILLER_96_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_96_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xclkbuf_4_10__f_clk clkbuf_3_5_0_clk/Z _376_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_45_62 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_45_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_6_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_61_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_61_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_99_310 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+Xoutput7 _174_/ZN dac_n[0] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput31 _334_/Q dout[4] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput20 _362_/Q dac_p[3] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XANTENNA__292__A1 _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_72_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_82_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_362_ _362_/D wire72/Z _366_/CLK _362_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+X_293_ _379_/D _293_/A2 _293_/A3 _370_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_1
+XPHY_EDGE_ROW_39_Left_144 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_42_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__180__I _365_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_48_Left_153 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_73_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_57_Left_162 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__256__A1 _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_66_Left_171 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_63_29 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_75_Left_180 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_88_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_37_63 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__175__I _360_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_276_ _279_/B2 _273_/B _276_/B _354_/Q _277_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+X_345_ _345_/D _345_/RN _378_/CLK _345_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_12_Right_12 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_58_18 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_21_Right_21 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_90_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_30_Right_30 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_3_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XFILLER_0_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_0_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_104_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_259_ _317_/C _379_/D _259_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_328_ _322_/B _328_/A2 _214_/C _328_/A4 _328_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__or4_1
+XFILLER_100_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_100_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_59_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xload_slew97 _308_/S _307_/S VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_3
+XANTENNA_fanout79_I fanout92/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_20_22 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_96_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_29_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XTAP_TAPCELL_ROW_85_296 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+Xclkbuf_3_0_0_clk clkbuf_0_clk/Z clkbuf_3_0_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XPHY_EDGE_ROW_11_Left_116 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_45_52 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_20_Left_125 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_6_Right_6 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_15_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xoutput8 _175_/ZN dac_n[1] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput32 _335_/Q dout[5] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput21 _363_/Q dac_p[4] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput10 _177_/ZN dac_n[3] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_31_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_103_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XANTENNA__178__I _363_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_59_Right_59 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA_input3_I start VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_68_Right_68 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_77_Right_77 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_86_Right_86 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+X_292_ _171_/I _370_/Q _293_/A3 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_361_ _361_/D _361_/RN _361_/CLK _361_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XTAP_TAPCELL_ROW_55_266 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_95_Right_95 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_67_83 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_67_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_12_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_37_53 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_275_ _364_/Q _275_/A2 _277_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_344_ _344_/D _356_/RN _344_/CLK _344_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+XFILLER_53_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_53_63 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_3_Left_108 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_74_18 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_25_236 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_0_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_64_51 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_189_ _322_/B _328_/A2 _324_/A4 _322_/A3 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand3_1
+X_258_ _312_/I0 _288_/B2 _258_/B _358_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_327_ _328_/A2 _327_/A2 _327_/B1 _327_/B2 _346_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai22_1
+XPHY_EDGE_ROW_94_Left_199 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_34_54 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_50_64 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_50_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_75_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xload_slew98 _198_/A2 _172_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_3
+Xload_slew76 _343_/RN _366_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XFILLER_20_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_20_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_fanout60_Z _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_45_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_6_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_6_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_0_210 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_15_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_31_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+Xoutput9 _176_/ZN dac_n[2] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput33 _336_/Q dout[6] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput22 _364_/Q dac_p[5] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput11 _178_/ZN dac_n[4] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+X_291_ _375_/D _291_/A2 _291_/A3 _369_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_1
+X_360_ _360_/D _361_/RN _361_/CLK _360_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_42_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_67_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_83_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_83_50 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkbuf_4_8__f_clk clkbuf_3_4_0_clk/Z _380_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_59_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_fanout54_I _321_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_53_53 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_274_ _277_/A1 _274_/A2 _274_/B _363_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_343_ _343_/D _343_/RN _344_/CLK _343_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_104_Left_209 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_23_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_0_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_48_20 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_104_70 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_326_ _377_/Q _326_/A2 _326_/B1 _325_/Z _327_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi22_1
+XFILLER_64_63 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_64_41 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_188_ _348_/Q _347_/Q _324_/A4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+X_257_ _358_/Q _257_/A2 _258_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+Xfanout90 fanout92/Z wire91/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_80_84 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_18_23 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_50_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xload_slew88 _347_/RN _376_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
+Xload_slew77 _343_/RN _335_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
+Xload_slew44 _328_/A4 _214_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
+X_309_ _171_/I _340_/Q _310_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+XFILLER_91_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_61_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_45_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_6_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XTAP_TAPCELL_ROW_76_287 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_103_314 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_0_211 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_15_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xoutput34 _337_/Q dout[7] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput23 _365_/Q dac_p[6] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput12 _179_/ZN dac_n[5] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_56_20 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_72_41 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_72_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_68_7 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_clkbuf_3_7_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_26_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_290_ _290_/A1 _373_/Q _369_/Q _291_/A3 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XFILLER_42_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_42_22 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_46_257 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_17_Left_122 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_26_Left_131 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_35_Left_140 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_60_271 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_12_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_342_ _342_/D _366_/RN _369_/CLK _342_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+X_273_ _216_/Z _273_/A2 _273_/B _353_/Q _274_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+XFILLER_53_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_94_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_71_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_23_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_48_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_104_60 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_325_ _345_/Q _346_/Q _325_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__xor2_1
+XTAP_TAPCELL_ROW_16_227 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_80_52 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+X_187_ _315_/C _186_/Z _380_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_256_ _285_/A1 _285_/B _358_/Q _288_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XFILLER_89_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_30_241 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_34_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_34_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_34_23 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkload0 _361_/CLK clkload0/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XFILLER_59_64 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xload_slew89 _345_/RN _347_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xload_slew67 _361_/RN _370_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XFILLER_75_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_239_ _312_/S _161_/I _162_/I _318_/A1 _273_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor4_4
+X_308_ _339_/Q _358_/Q _308_/S _339_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+XFILLER_34_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_9_Left_114 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_20_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_29_89 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_61_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_101_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XANTENNA_clkbuf_3_3_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_15_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xoutput35 _338_/Q dout[8] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput24 _366_/Q dac_p[7] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput13 _180_/ZN dac_n[6] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_56_32 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_19_Right_19 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_72_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_72_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_28_Right_28 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_97_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XPHY_EDGE_ROW_37_Right_37 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_99_Left_204 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_46_Right_46 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__259__A2 _379_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_55_Right_55 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_26_46 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_64_Right_64 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_42_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_101_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XPHY_EDGE_ROW_73_Right_73 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_82_Right_82 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_83_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_input1_I comp_out VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_91_Right_91 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_12_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_37_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_272_ _363_/Q _275_/A2 _274_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_341_ _341_/D _366_/RN _365_/CLK _341_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+XFILLER_94_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_64_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA_output40_I _369_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_255_ _312_/S _342_/Q _319_/B _343_/Q _285_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor4_2
+X_324_ _324_/A1 _345_/Q _328_/A2 _324_/A4 _326_/B1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand4_1
+Xfanout92 input2/Z fanout92/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout81 wire86/I wire82/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XPHY_EDGE_ROW_54_Left_159 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+X_186_ _160_/I _161_/I _344_/Q _343_/Q _186_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__or4_2
+XPHY_EDGE_ROW_63_Left_168 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_72_Left_177 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_7_218 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_81_Left_186 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xclkload1 _366_/CLK clkload1/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XPHY_EDGE_ROW_90_Left_195 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_59_54 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xload_slew68 _330_/RN _361_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+X_169_ _377_/Q _290_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_238_ _242_/A1 _238_/A2 _238_/B _353_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_307_ _338_/Q _357_/Q _307_/S _338_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+XFILLER_41_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_1_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_20_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_29_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_86_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_67_278 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_31_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_31_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xoutput36 _339_/Q dout[9] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput25 _367_/Q dac_p[8] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput14 _181_/ZN dac_n[7] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_31_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_81_292 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_72_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_96_307 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_94_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_37_248 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+X_271_ _277_/A1 _271_/A2 _271_/B _362_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_340_ _340_/D _370_/RN _373_/CLK _340_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XTAP_TAPCELL_ROW_51_262 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XANTENNA__183__ZN _288_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_78_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_94_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_57_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_100_Left_205 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_48_45 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_48_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_185_ _162_/I _343_/Q wire51/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_254_ _312_/I0 _254_/A2 _254_/B _357_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_323_ _322_/B _327_/A2 _327_/B1 _323_/B2 _345_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai22_1
+Xfanout93 _285_/A1 _267_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout71 _353_/RN _333_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout60 _373_/Q _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_80_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_89_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_34_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_18_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xclkload2 _352_/CLK clkload2/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XTAP_TAPCELL_ROW_21_232 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_50_13 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_75_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_306_ _337_/Q _356_/Q _307_/S _337_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+X_168_ _347_/Q _329_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_237_ _353_/Q _241_/A2 _238_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_1_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_29_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_61_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_101_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_86_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_10_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_31_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xoutput37 _382_/I dout_valid VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput26 _368_/Q dac_p[9] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput15 _182_/ZN dac_n[8] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XPHY_EDGE_ROW_1_Right_1 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_56_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_72_77 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_97_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_7_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xclkbuf_4_3__f_clk clkbuf_3_1_0_clk/Z _365_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_26_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_26_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_67_11 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_83_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_73_8 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkbuf_4_11__f_clk clkbuf_3_5_0_clk/Z _378_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_37_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_270_ wire51/Z _231_/Z _273_/A2 _315_/B _352_/Q _271_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi221_1
+XFILLER_78_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_27_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_48_57 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_48_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_322_ _377_/Q _374_/Q _322_/A3 _322_/B _323_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai31_1
+XFILLER_80_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_64_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_184_ _160_/I _161_/I _315_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+X_253_ _357_/Q _257_/A2 _254_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+Xfanout94 _285_/A1 _279_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout61 _344_/Q _162_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xfanout50 wire51/Z _267_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_80_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_80_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_18_27 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_34_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkload3 _377_/CLK clkload3/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XFILLER_50_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_88_299 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_75_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_305_ _336_/Q _355_/Q _307_/S _336_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+X_167_ _348_/Q _213_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_236_ _216_/Z _273_/A2 _353_/Q _238_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XFILLER_1_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_61_57 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_45_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_5_Left_110 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_86_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_219_ _289_/A2 _321_/A2 _317_/C _219_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_32_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_69_Left_174 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_78_Left_183 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xoutput38 _382_/Z eoc VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput27 _330_/Q dout[0] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput16 _288_/A1 dac_n[9] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_56_13 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__198__A1 _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_58_269 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_87_Left_192 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_72_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__290__B _369_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_72_283 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+Xclkbuf_0_clk clk clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_94_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_15_Right_15 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_24_Right_24 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_42_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_33_Right_33 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_95_Left_200 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__339__Q _339_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_42_Right_42 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_83_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_83_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_51_Right_51 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_60_Right_60 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_103_Right_103 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_28_239 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_53_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_94_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_42_253 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_57_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_4_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_64_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_104_86 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_output19_I _361_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_252_ _285_/A1 _317_/B _357_/Q _254_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+X_321_ _321_/A1 _321_/A2 _186_/Z _321_/B2 _321_/C _327_/B1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai221_4
+Xfanout62 _342_/Q _161_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XPHY_EDGE_ROW_14_Left_119 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+X_183_ _368_/Q _288_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+Xfanout95 input1/Z _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout84 wire91/Z wire86/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XPHY_EDGE_ROW_23_Left_128 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_13_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_89_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_32_Left_137 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_41_Left_146 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_50_Left_155 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_34_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkload4 _378_/CLK clkload4/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XFILLER_50_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_59_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_75_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_235_ _162_/I _318_/A1 _282_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+X_304_ _335_/Q _354_/Q _307_/S _335_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+XTAP_TAPCELL_ROW_12_223 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_91_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_166_ _346_/Q _328_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+XFILLER_34_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_1_64 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_89_Right_89 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_98_Right_98 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_61_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_61_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_61_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_86_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_218_ _349_/Q _241_/A2 _220_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_51_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xoutput39 _370_/Q samp_bot VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput28 _331_/Q dout[1] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput17 _359_/Q dac_p[0] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_56_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__360__Q _360_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_97_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_21_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_7_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_42_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_67_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_16_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_57_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_94_11 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_78_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_94_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_71_7 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__252__A1 _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_48_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_64_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_104_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_104_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_182_ _367_/Q _182_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_251_ _162_/I _318_/A1 _315_/B _317_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and3_1
+X_320_ _318_/B _320_/A2 _344_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and2_1
+Xfanout74 fanout92/Z _353_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout63 _341_/Q _160_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xfanout52 _321_/A1 _289_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_80_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_89_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_55_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xclkbuf_4_9__f_clk clkbuf_3_4_0_clk/Z _377_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+Xclkload5 _344_/CLK clkload5/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XANTENNA__363__Q _363_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_165_ _345_/Q _322_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_234_ _242_/A1 _234_/A2 _234_/B _352_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_303_ _334_/Q _353_/Q _307_/S _334_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+XFILLER_41_8 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_1_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_3_214 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_101_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_101_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_86_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_10_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_19_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_19_50 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_217_ _267_/B2 _216_/Z _349_/Q _220_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XFILLER_18_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xoutput29 _332_/Q dout[2] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput18 _360_/Q dac_p[1] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_56_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_56_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_72_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_97_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_97_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_63_274 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_5_Right_5 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_67_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_92_303 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_85_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_53_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_94_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_27_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_64_7 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_33_244 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_64_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_104_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_181_ _366_/Q _181_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_250_ _319_/B _343_/Q _287_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+Xfanout42 _312_/I0 _242_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout75 _355_/RN _343_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout64 input3/Z _198_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xfanout53 _321_/B2 _277_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_80_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_9_220 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_13_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_379_ _379_/D wire82/Z _380_/CLK _379_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_18_19 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_50_39 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_1_8 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_75_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_75_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_302_ _333_/Q _352_/Q _381_/D _333_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+X_164_ _378_/Q _324_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_233_ _352_/Q _241_/A2 _234_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_40_61 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_1_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_61_38 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_10_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_69_280 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_35_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_216_ _267_/A1 _315_/B _216_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and2_1
+XPHY_EDGE_ROW_29_Left_134 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_38_Left_143 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xoutput19 _361_/Q dac_p[2] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XPHY_EDGE_ROW_47_Left_152 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_56_Left_161 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_72_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_72_15 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_65_Left_170 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_21_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__369__Q _369_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_7_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_39_250 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_83_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_83_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_16_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_11_Right_11 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_32_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_16_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_20_Right_20 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_78_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_27_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_71_9 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_43_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_104_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_180_ _365_/Q _180_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+Xfanout43 _219_/ZN _312_/I0 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout87 wire91/I _345_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout65 input3/Z _321_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout54 _321_/B2 _315_/C VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_80_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_80_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_8_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_89_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_378_ _378_/D wire91/I _378_/CLK _378_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_10_Left_115 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_75_59 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_75_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_output17_I _359_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_232_ _267_/B2 _231_/Z _352_/Q _234_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+X_301_ _332_/Q _351_/Q _381_/D _332_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+X_163_ _343_/Q _318_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__inv_2
+XFILLER_24_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_65_92 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_1_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XPHY_EDGE_ROW_49_Right_49 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_60_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_58_Right_58 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_67_Right_67 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_10_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_84_295 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_76_Right_76 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_35_51 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_35_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_19_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_215_ _213_/B _212_/Z _215_/B1 _329_/B _348_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi22_1
+XPHY_EDGE_ROW_85_Right_85 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_51_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_51_83 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_94_Right_94 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_32_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_7_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_7_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_2_Left_107 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_67_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_54_265 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_32_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_57_82 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XPHY_EDGE_ROW_84_Left_189 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_93_Left_198 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_78_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_4_89 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_4_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_90_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xfanout55 _170_/ZN _321_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XTAP_TAPCELL_ROW_24_235 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+Xfanout66 _353_/RN _330_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_89_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_13_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_377_ _377_/D wire91/Z _377_/CLK _377_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_55_5 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_50_19 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_162_ _162_/I _319_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_231_ _267_/A1 _230_/Z _231_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and2_1
+X_300_ _331_/Q _350_/Q _381_/D _331_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+XFILLER_49_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_1_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_53_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xinput1 comp_out input1/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_86_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA_clkbuf_0_clk_I clk VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_214_ _214_/A1 _321_/C _214_/B _214_/C _329_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_2
+XFILLER_76_92 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_92_80 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_21_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_89_300 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_21_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_103_Left_208 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_16_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_16_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_57_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_9_Right_9 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA_clkbuf_3_6_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_78_27 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_94_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_27_42 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_43_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_104_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+Xfanout78 _355_/RN _356_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout56 _380_/Q _381_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_80_39 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xclkbuf_4_4__f_clk clkbuf_3_2_0_clk/Z _381_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_13_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XANTENNA_fanout95_Z _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XANTENNA__176__I _361_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_376_ _376_/D _376_/RN _376_/CLK _376_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+Xclkbuf_4_12__f_clk clkbuf_3_6_0_clk/Z _369_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_91_38 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+X_161_ _161_/I _314_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__inv_2
+X_230_ _160_/I _161_/I _230_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and2_1
+XFILLER_24_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_24_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_49_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_65_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_359_ _359_/D wire72/Z _373_/CLK _359_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_46_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xinput2 rst_n input2/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_10_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_19_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA_output22_I _364_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_213_ _378_/Q _173_/I _213_/B _215_/B1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XTAP_TAPCELL_ROW_75_286 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_76_60 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_18_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_102_313 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_16_Left_121 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_72_29 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_25_Left_130 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_21_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_21_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_23_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_clkbuf_3_2_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_67_18 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_16_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XANTENNA__179__I _364_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_45_256 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_73_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_85_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_94_27 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_68_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_4_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_104_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_104_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+Xfanout79 fanout92/Z _355_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout57 _380_/Q _308_/S VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xfanout46 _288_/A2 _275_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XPHY_EDGE_ROW_8_Left_113 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_15_226 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+X_375_ _375_/D wire82/Z _380_/CLK _379_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_70_51 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_160_ _160_/I _312_/S VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__inv_2
+XFILLER_24_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_49_52 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_358_ _358_/D _358_/RN _358_/CLK _358_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_81_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_81_50 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_289_ _377_/Q _289_/A2 _321_/A2 _291_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_1
+XPHY_EDGE_ROW_18_Right_18 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xinput3 start input3/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XPHY_EDGE_ROW_27_Right_27 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_36_Right_36 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_98_Left_203 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_19_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_19_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_212_ _214_/A1 _214_/C _214_/B _212_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__or3_1
+XPHY_EDGE_ROW_45_Right_45 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_35_65 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_54_Right_54 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_63_Right_63 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_72_Right_72 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__285__A1 _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_81_Right_81 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_90_Right_90 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_21_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__200__A1 _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_16_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_0_Right_0 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_32_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_73_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_44_Left_149 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_53_Left_158 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_62_Left_167 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_71_Left_176 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_80_Left_185 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_4_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_84_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_68_84 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_fanout64_I input3/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xfanout69 _353_/RN _332_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout58 _376_/Q _317_/C VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout47 _259_/ZN _288_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_13_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_38_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_374_ _374_/D _376_/RN _380_/CLK _374_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_54_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_70_63 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_79_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_79_61 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_6_217 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_24_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_24_23 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_65_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_357_ _357_/D _357_/RN _357_/CLK _357_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+X_288_ _288_/A1 _288_/A2 _288_/B1 _288_/B2 _368_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi22_1
+XFILLER_10_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_211_ _214_/C _328_/A4 _327_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+XFILLER_51_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_35_55 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_51_76 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_51_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XTAP_TAPCELL_ROW_66_277 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_102_Right_102 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_80_291 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_95_306 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_87_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_99_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XANTENNA_fanout94_I _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_32_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_32_23 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_57_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_98_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_36_247 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_78_19 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_50_261 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_90_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_fanout57_I _380_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xfanout59 _374_/Q _173_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+Xfanout48 _257_/A2 _241_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_13_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XANTENNA__321__B2 _321_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_38_11 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_54_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_373_ _373_/D _370_/RN _373_/CLK _373_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+XFILLER_70_20 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_95_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_20_231 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_40_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_65_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_287_ _314_/A2 _287_/A2 _315_/C _288_/B1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+X_356_ _356_/D _356_/RN _356_/CLK _356_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_81_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_53_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_10_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_10_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_86_19 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_19_46 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_210_ _379_/Q _321_/C _209_/Z _328_/A4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_2
+XFILLER_35_89 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_76_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_18_9 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_339_ _339_/D _358_/RN _358_/CLK _339_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_21_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_21_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_21_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_46_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_output20_I _362_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xmax_cap45 _316_/A1 _214_/C VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_62_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_16_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_32_57 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_21_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_84_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xfanout49 _319_/A2 _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_38_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_38_23 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_54_11 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_372_ _372_/D wire91/I _376_/CLK _372_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_70_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_79_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_79_52 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_74_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_59_Left_164 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_24_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_24_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_68_Left_173 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_40_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_65_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_87_298 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_77_Left_182 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_65_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_286_ _315_/C _286_/A2 _286_/B _367_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_355_ _355_/D _355_/RN _356_/CLK _355_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_86_Left_191 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__288__A1 _288_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_35_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_14_Right_14 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_51_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_51_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_23_Right_23 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_4_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+X_338_ _338_/D _357_/RN _358_/CLK _338_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_32_Right_32 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_92_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_269_ _362_/Q _275_/A2 _271_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XPHY_EDGE_ROW_41_Right_41 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_37_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_50_Right_50 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_2_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_57_268 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_46_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XANTENNA_fanout49_Z _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_87_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_23_8 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_71_282 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_16_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_13_Left_118 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_22_Left_127 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_8_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_4_Right_4 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_31_Left_136 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_27_238 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_40_Left_145 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_27_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_27_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_84_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_68_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_41_252 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+X_371_ _371_/D _345_/RN _376_/CLK _371_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffsnq_1
+XPHY_EDGE_ROW_79_Right_79 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_88_Right_88 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_79_42 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_97_Right_97 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_95_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_67_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_5_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_40_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_24_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_49_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_354_ _354_/D _365_/RN _354_/CLK _354_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+X_285_ _285_/A1 _317_/B _285_/B _357_/Q _286_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+XTAP_TAPCELL_ROW_11_222 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_81_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_35_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_35_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_51_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_76_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_76_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_76_54 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_337_ _337_/D _357_/RN _344_/CLK _337_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_25_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_199_ _348_/Q _214_/A1 _377_/Q _200_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_268_ _277_/A1 _268_/A2 _268_/B _361_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_2_62 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XANTENNA_input3_Z input3/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_62_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_102_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_87_31 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_32_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_32_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_57_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_57_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_73_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_73_22 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_98_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_97_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XFILLER_43_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_84_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__315__A1 _373_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_12_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_38_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_370_ _370_/D _370_/RN _373_/CLK _370_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_70_45 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_70_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_79_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_40_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_49_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_output36_I _339_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_284_ _367_/Q _288_/A2 _286_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_353_ _353_/D _353_/RN _354_/CLK _353_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_81_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_81_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_81_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_78_289 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_2_213 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_76_22 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_92_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+X_267_ _267_/A1 _264_/B _230_/Z _267_/B2 _351_/Q _268_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi221_2
+X_336_ _336_/D _356_/RN _357_/CLK _336_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_92_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_198_ _171_/I _198_/A2 _319_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+Xclkbuf_4_5__f_clk clkbuf_3_2_0_clk/Z _352_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_21_17 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_46_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_62_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_87_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_87_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_11_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xclkbuf_4_13__f_clk clkbuf_3_6_0_clk/Z _344_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XTAP_TAPCELL_ROW_48_259 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_87_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_319_ _317_/C _319_/A2 _319_/B _320_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_42_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_62_273 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_32_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_73_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_98_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_91_302 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_47_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_68_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_18_229 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_84_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XANTENNA__260__A1 _359_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_32_243 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_38_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_54_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_79_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_95_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_28_92 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_5_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_19_Left_124 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA_fanout48_I _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_28_Left_133 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_37_Left_142 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_49_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_49_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_65_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_283_ _315_/C _283_/A2 _283_/B _366_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_352_ _352_/D wire72/I _352_/CLK _352_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_46_Left_151 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_14_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XPHY_EDGE_ROW_55_Left_160 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_76_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_92_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_92_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_197_ _298_/A1 _197_/A2 _378_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_266_ _361_/Q _275_/A2 _268_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_335_ _335_/D _335_/RN _357_/CLK _335_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_41_81 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_10_Right_10 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_2_53 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_46_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_62_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_2_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_87_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_249_ _312_/I0 _249_/A2 _249_/B _356_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_318_ _318_/A1 _318_/A2 _318_/B _343_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_52_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_57_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xwire91 wire91/I wire91/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_73_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_73_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__361__Q _361_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_8_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_68_46 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_84_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_17_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XPHY_EDGE_ROW_8_Right_8 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_39_Right_39 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_54_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_48_Right_48 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_70_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_57_Right_57 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_102_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_95_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_95_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_66_Right_66 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_74_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_75_Right_75 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA_input2_I rst_n VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_84_Right_84 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_93_Right_93 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+X_351_ _351_/D _381_/RN _381_/CLK _351_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_65_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_282_ _231_/Z _282_/A2 _317_/B _356_/Q _283_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+XANTENNA_fanout60_I _373_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_76_46 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__364__Q _364_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_83_294 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+X_334_ _334_/D _335_/RN _356_/CLK _334_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XPHY_EDGE_ROW_1_Left_106 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_25_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_196_ _378_/Q _322_/A3 _197_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_265_ _277_/A1 _265_/A2 _265_/B _360_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XTAP_TAPCELL_ROW_98_309 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_2_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_74_Left_179 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_46_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_62_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_83_Left_188 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_87_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_11_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__359__Q _359_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_92_Left_197 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+X_317_ _317_/A1 _172_/I _317_/B _317_/C _318_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai211_1
+XFILLER_36_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_179_ _364_/Q _179_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_248_ _356_/Q _257_/A2 _249_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_28_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_73_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_53_264 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_73_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_8_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__309__A1 _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_17_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_33_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_95_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XANTENNA_clkbuf_3_5_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XANTENNA_fanout90_I fanout92/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_23_234 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_70_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_60_92 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_5_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_350_ _350_/D _381_/RN _361_/CLK _350_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_81_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_281_ _366_/Q _288_/A2 _283_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_30_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_14_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_14_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_72_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_fanout53_I _321_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_264_ _267_/A1 _261_/B _264_/B _350_/Q _265_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+X_333_ _333_/D _333_/RN _354_/CLK _333_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XANTENNA__380__Q _380_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_195_ _345_/Q _328_/A2 _173_/I _324_/A4 _298_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand4_1
+XFILLER_41_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_41_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_102_Left_207 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_2_55 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_59_270 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XANTENNA__379__D _379_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_102_89 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_102_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__375__Q _379_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_247_ _231_/Z _282_/A2 _356_/Q _249_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+X_316_ _316_/A1 _316_/A2 _316_/A3 _318_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_1
+X_178_ _363_/Q _178_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+XANTENNA__272__A1 _363_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xwire82 wire82/I wire82/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_98_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__263__A1 _360_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_29_240 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XANTENNA_clkbuf_3_1_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_68_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_17_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_33_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_88_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_54_17 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_70_27 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_79_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_79_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_44_83 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_67_7 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_5_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_5_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_65_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_280_ _321_/B2 _280_/A2 _280_/B _365_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XPHY_EDGE_ROW_15_Left_120 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_39_83 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_39_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_39_50 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_101_Right_101 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xclkbuf_4_0__f_clk clkbuf_3_0_0_clk/Z _373_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_76_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_76_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_263_ _360_/Q _275_/A2 _265_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_332_ _332_/D _332_/RN _381_/CLK _332_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+X_194_ _345_/Q _328_/A2 _324_/A4 _202_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand3_1
+XFILLER_2_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_74_285 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_101_312 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_82_80 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_11_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_87_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__290__A2 _373_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_177_ _362_/Q _177_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_246_ _312_/I0 _246_/A2 _246_/B _355_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_315_ _373_/Q _315_/A2 _315_/B _315_/C _316_/A3 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+Xwire72 wire72/I wire72/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_73_27 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_47_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_44_255 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_7_Left_112 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_63_82 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_229_ _242_/A1 _229_/A2 _229_/B _351_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XANTENNA__245__A2 _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_84_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_17_64 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XANTENNA__171__I _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XANTENNA__308__I0 _339_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_89_Left_194 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_17_Right_17 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_26_Right_26 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_28_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_14_225 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_35_Right_35 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_44_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_97_Left_202 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__209__A2 _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_44_Right_44 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_53_Right_53 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_62_Right_62 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_71_Right_71 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_14_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_80_Right_80 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_14_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_55_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_72_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_331_ _331_/D _332_/RN _381_/CLK _331_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_92_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_92_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_92_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_193_ _322_/B _346_/Q _326_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_262_ _277_/A1 _262_/A2 _262_/B _359_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_41_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_63_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_34_Left_139 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_102_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XPHY_EDGE_ROW_43_Left_148 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_52_Left_157 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_11_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_314_ _314_/A1 _314_/A2 _314_/A3 _314_/B1 _314_/B2 _342_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai32_4
+XPHY_EDGE_ROW_61_Left_166 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA__174__I _359_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_176_ _361_/Q _176_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_245_ _355_/Q _257_/A2 _246_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XPHY_EDGE_ROW_70_Left_175 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xwire51 wire51/I wire51/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
+XFILLER_73_17 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_98_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_8_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_63_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_63_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_228_ _351_/Q _241_/A2 _229_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_40_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_26_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_68_17 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_84_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_17_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_74_71 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_0_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_5_216 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_14_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_30_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__177__I _362_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_71_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_330_ _330_/D _330_/RN _352_/CLK _330_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_25_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_25_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_192_ _348_/Q _290_/A1 _214_/A1 _375_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_2
+X_261_ _267_/B2 _216_/Z _261_/B _349_/Q _262_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi211_1
+XANTENNA__293__A1 _379_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_56_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_65_276 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_102_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XANTENNA__275__A1 _364_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_244_ _285_/A1 _276_/B _355_/Q _246_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+X_313_ _312_/S _342_/Q _317_/A1 _172_/I _314_/A3 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai22_4
+XFILLER_52_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_36_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_175_ _360_/Q _175_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+XANTENNA__266__A1 _361_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_94_305 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_42_8 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_98_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_22_22 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_0_4 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_227_ _267_/A1 _264_/B _351_/Q _229_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XTAP_TAPCELL_ROW_35_246 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+Xclkbuf_4_6__f_clk clkbuf_3_3_0_clk/Z _356_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_17_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_58_62 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_74_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_90_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xclkbuf_4_14__f_clk clkbuf_3_7_0_clk/Z _358_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XPHY_EDGE_ROW_3_Right_3 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_44_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_28_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_60_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_69_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_86_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_14_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_30_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_30_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_55_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_71_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_260_ _359_/Q _275_/A2 _262_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_25_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_191_ _345_/Q _346_/Q _347_/Q _214_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand3_1
+XFILLER_41_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_2_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_87_17 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_11_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_36_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_243_ _160_/I _314_/B2 _162_/I _318_/A1 _276_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor4_4
+X_312_ _312_/I0 _314_/B1 _312_/S _341_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+X_174_ _359_/Q _174_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+XFILLER_77_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_77_50 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA__257__A2 _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_73_19 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xwire86 wire86/I wire86/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_22_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__248__A2 _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_226_ _312_/S _161_/I _267_/B2 _264_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and3_1
+XFILLER_8_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_84_29 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_68_19 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_17_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XPHY_EDGE_ROW_49_Left_154 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_58_Left_163 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_67_Left_172 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_88_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_209_ _376_/Q _171_/I _209_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__or2_1
+XPHY_EDGE_ROW_76_Left_181 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_0_70 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XPHY_EDGE_ROW_85_Left_190 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_28_55 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_44_87 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_44_32 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_44_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_100_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_69_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_13_Right_13 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_85_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XPHY_EDGE_ROW_22_Right_22 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA_fanout74_I fanout92/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_31_Right_31 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_40_Right_40 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_30_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_86_297 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_55_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_96_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_25_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_190_ _324_/A1 _322_/A3 _376_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+XFILLER_9_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XFILLER_41_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_66_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_12_Left_117 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_11_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XPHY_EDGE_ROW_21_Left_126 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_56_267 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XANTENNA_output18_I _360_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_173_ _173_/I _297_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_242_ _242_/A1 _242_/A2 _242_/B _354_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_311_ _316_/A1 _316_/A2 _314_/B1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+XPHY_EDGE_ROW_30_Left_135 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_52_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_77_62 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_93_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_70_281 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_47_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_69_Right_69 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_63_86 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_225_ _341_/Q _314_/B2 _314_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+XFILLER_8_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XPHY_EDGE_ROW_78_Right_78 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_87_Right_87 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_96_Right_96 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_26_237 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_17_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_33_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_33_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_58_64 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__181__ZN _181_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_40_251 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+X_208_ _317_/C _171_/I _316_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+XFILLER_28_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_4_Left_109 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_60_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_60_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_69_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_14_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_55_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_10_221 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+Xclkbuf_3_7_0_clk clkbuf_0_clk/Z clkbuf_3_7_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XANTENNA__278__A1 _365_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_66_20 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_82_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_15_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__269__A1 _362_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_310_ _373_/D _310_/A2 _340_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+XFILLER_36_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_36_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_172_ _172_/I _315_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+X_241_ _354_/Q _241_/A2 _242_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_77_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_54_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_22_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_47_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_47_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_224_ _242_/A1 _224_/A2 _224_/B _350_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_63_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_103_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_88_95 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_26_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_17_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_33_57 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_58_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_207_ _378_/Q _377_/Q _173_/I _321_/C VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__or3_1
+XFILLER_90_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_23_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_99_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_44_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_28_57 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_28_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_60_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_60_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_60_11 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_69_75 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_85_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_7_Right_7 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_14_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_30_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_39_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_71_21 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_71_76 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_77_288 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_104_315 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XANTENNA_clkbuf_0_clk_Z clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_84_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_6_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_1_212 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_25_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_41_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_66_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_66_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_36_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_240_ _279_/B2 _273_/B _354_/Q _242_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XFILLER_52_45 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_52_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_52_23 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_52_12 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_171_ _171_/I _321_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+Xclkbuf_3_6_0_clk clkbuf_0_clk/Z clkbuf_3_6_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XTAP_TAPCELL_ROW_47_258 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_93_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_369_ _369_/D wire82/Z _369_/CLK _369_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_47_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_3_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_61_272 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_22_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_22_15 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkbuf_4_1__f_clk clkbuf_3_0_0_clk/Z _361_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XANTENNA_output23_I _365_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_223_ _350_/Q _241_/A2 _224_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_63_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_88_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_90_301 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_33_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_33_47 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_33_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_18_Left_123 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_58_22 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_17_228 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_27_Left_132 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_74_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_206_ _317_/A1 _172_/I _186_/Z _315_/C _316_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai22_4
+XPHY_EDGE_ROW_36_Left_141 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_90_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_45_Left_150 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XTAP_TAPCELL_ROW_31_242 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_28_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_100_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_60_56 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_30_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_30_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_39_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_39_57 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_71_33 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_96_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_96_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_104_316 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_41_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_66_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_82_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_36_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_170_ _376_/Q _170_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkinv_1
+XFILLER_7_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XFILLER_77_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_299_ _330_/Q _349_/Q _381_/D _330_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__mux2_2
+X_368_ _368_/D wire86/Z _369_/CLK _368_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_47_13 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_29_Right_29 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_103_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_output16_I _288_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_222_ _267_/A1 _261_/B _350_/Q _224_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XPHY_EDGE_ROW_38_Right_38 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_63_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_12_93 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XPHY_EDGE_ROW_47_Right_47 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_56_Right_56 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_65_Right_65 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_74_Right_74 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+Xclkbuf_3_5_0_clk clkbuf_0_clk/Z clkbuf_3_5_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XPHY_EDGE_ROW_83_Right_83 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_58_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_92_Right_92 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_74_55 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+X_205_ _381_/D _293_/A2 _373_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__or2_1
+XFILLER_99_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_100_Right_100 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_9_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_8_219 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_28_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_28_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_44_14 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_100_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_85_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_34_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_0_Left_105 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_22_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XANTENNA_clkbuf_3_4_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xload_slew80 _355_/RN _365_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XFILLER_39_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_55_13 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_39_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_64_Left_169 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_55_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_73_Left_178 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_96_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_82_Left_187 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_91_Left_196 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XANTENNA_fanout65_I input3/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_68_279 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_41_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_66_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_82_293 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_97_308 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_36_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_36_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_77_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_93_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_298_ _298_/A1 _209_/Z _298_/B _372_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+X_367_ _367_/D wire86/Z _369_/CLK _367_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_54_5 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XTAP_TAPCELL_ROW_38_249 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_3_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_47_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_221_ _160_/I _314_/B2 _267_/B2 _261_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__and3_1
+XTAP_TAPCELL_ROW_52_263 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_37_91 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_19_8 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_33_38 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_74_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_74_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_204_ _317_/A1 _172_/I _293_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_2
+XFILLER_74_78 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_23_82 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_23_60 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_0_86 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XANTENNA_clkbuf_3_0_0_clk_I clkbuf_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_100_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XTAP_TAPCELL_ROW_22_233 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_44_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_69_89 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_69_67 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_85_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_85_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xclkbuf_3_4_0_clk clkbuf_0_clk/Z clkbuf_3_4_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+Xload_slew70 _332_/RN _381_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+XPHY_EDGE_ROW_101_Left_206 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_39_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_55_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+Xclkbuf_4_7__f_clk clkbuf_3_3_0_clk/Z _354_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_71_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_96_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_6_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_6_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_41_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+Xclkbuf_4_15__f_clk clkbuf_3_7_0_clk/Z _357_/CLK VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+XFILLER_82_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_31_60 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_15_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_36_16 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_52_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_366_ _366_/D _366_/RN _366_/CLK _366_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_93_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+X_297_ _297_/A1 _372_/Q _316_/A2 _298_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand3_1
+X_220_ _220_/A1 _242_/A1 _220_/B _349_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__oai21_1
+XFILLER_103_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_349_ _349_/D wire72/I _352_/CLK _349_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_53_80 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_45_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_58_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XANTENNA_output21_I _363_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_203_ _314_/A1 _203_/A2 _374_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_90_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_23_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__362__Q _362_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XFILLER_99_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_0_32 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_9_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_60_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_18_61 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_30_29 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_30_18 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_71_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_71_25 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_84_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_6_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_382_ _382_/I _382_/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_15_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xclkbuf_3_3_0_clk clkbuf_0_clk/Z clkbuf_3_3_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XFILLER_31_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+Xoutput4 _340_/Q busy VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XTAP_TAPCELL_ROW_73_284 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XTAP_TAPCELL_ROW_100_311 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_6_Left_111 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_52_27 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__365__Q _365_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_296_ _296_/A1 _296_/A2 _371_/D VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor2_1
+X_365_ _365_/D _365_/RN _365_/CLK _365_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_26_83 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_47_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_79_Left_184 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_3_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__280__A1 _321_/B2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XPHY_EDGE_ROW_88_Left_193 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_103_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_103_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_88_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_12_85 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_5_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+XPHY_EDGE_ROW_16_Right_16 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_37_82 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_279_ _230_/Z _282_/A2 _276_/B _279_/B2 _355_/Q _280_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi221_2
+X_348_ _348_/D wire82/I _377_/CLK _348_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XTAP_TAPCELL_ROW_43_254 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_25_Right_25 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_38_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XPHY_EDGE_ROW_34_Right_34 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_96_Left_201 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_43_Right_43 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_52_Right_52 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_58_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_58_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__244__A1 _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XANTENNA_output14_I _181_/ZN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+X_202_ _173_/I _202_/A2 _379_/Q _203_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+XPHY_EDGE_ROW_61_Right_61 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_70_Right_70 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_99_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_99_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_0_44 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_0_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_80_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_100_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_69_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_69_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XTAP_TAPCELL_ROW_13_224 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_34_50 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XANTENNA__373__Q _373_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xload_slew83 wire82/I _358_/RN VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
+XTAP_TAPCELL_ROW_79_290 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XPHY_EDGE_ROW_2_Right_2 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XPHY_EDGE_ROW_24_Left_129 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_71_15 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_33_Left_138 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_96_34 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_20_63 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_20_30 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_42_Left_147 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_29_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_29_61 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_51_Left_156 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_6_10 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XPHY_EDGE_ROW_60_Left_165 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_20_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_66_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_66_26 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_381_ _381_/D _381_/RN _381_/CLK _382_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+Xoutput5 _372_/Q cmp_clk VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_31_40 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+Xoutput40 _369_/Q samp_top VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XPHY_EDGE_ROW_99_Right_99 VDD VSS gf180mcu_fd_sc_mcu7t5v0__endcap
+XFILLER_68_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XTAP_TAPCELL_ROW_49_260 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_77_36 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_93_68 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_295_ _173_/I _371_/Q _209_/Z _296_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nor3_1
+X_364_ _364_/D _365_/RN _365_/CLK _364_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_3_88 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_3_66 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xclkbuf_3_2_0_clk clkbuf_0_clk/Z clkbuf_3_2_0_clk/Z VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__clkbuf_8
+XFILLER_88_79 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_88_24 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_88_13 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_12_97 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_37_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_37_61 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+X_278_ _365_/Q _288_/A2 _280_/B VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+X_347_ _347_/D _347_/RN _377_/CLK _347_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XANTENNA__253__A2 _257_/A2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_19_230 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_74_59 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_74_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_201_ _317_/C _186_/Z _314_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__nand2_1
+XFILLER_90_69 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+XFILLER_9_98 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_50_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+XFILLER_69_59 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_85_58 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_22_6 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA__208__A2 _171_/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+Xload_slew73 _333_/RN wire72/I VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_1
+XFILLER_98_2 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_91_90 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XANTENNA_fanout93_I _285_/A1 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__antenna
+XTAP_TAPCELL_ROW_4_215 VDD VSS gf180mcu_fd_sc_mcu7t5v0__filltie
+XFILLER_55_17 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+XFILLER_45_72 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+XFILLER_45_94 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+XFILLER_82_48 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+XFILLER_82_37 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_1
+X_380_ _380_/D wire91/Z _380_/CLK _380_/Q VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__dffrnq_1
+XFILLER_15_64 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+Xoutput6 _371_/Q cmp_rst VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+Xoutput30 _333_/Q dout[3] VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__buf_2
+XFILLER_31_96 VDD VDD VSS VSS gf180mcu_fd_sc_mcu7t5v0__fill_2
+.ends
+
