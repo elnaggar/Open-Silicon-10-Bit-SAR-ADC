@@ -1,0 +1,5 @@
+A_136x154_util45_19ns rtl.log:  DEEP VERIFY PASSED (N=10, 1027 checks, 0 errors)
+A_136x154_util45_19ns func.log:  DEEP VERIFY PASSED (N=10, 1027 checks, 0 errors)
+A_136x154_util45_19ns sdf_*.out: /foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/A_136x154_util45_19ns/sim/sdf_nom_ff_n40C_3v60.out: DEEP VERIFY PASSED (N=10, 1027 checks, 0 errors)
+/foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/A_136x154_util45_19ns/sim/sdf_nom_ss_125C_3v00.out: DEEP VERIFY PASSED (N=10, 1027 checks, 0 errors)
+/foss/designs/Open-Silicon-10-Bit-SAR-ADC/designs/rtl/sar_logic_diff/variants/A_136x154_util45_19ns/sim/sdf_nom_tt_025C_3v30.out: DEEP VERIFY PASSED (N=10, 1027 checks, 0 errors)

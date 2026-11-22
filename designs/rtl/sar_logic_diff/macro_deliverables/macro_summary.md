@@ -1,39 +1,20 @@
-# SAR Logic Digital Macro - Implementation Summary
+# SAR Logic (diff) Macro Deliverables - six variants (3 floorplans x {40 ns, 19 ns})
 
-This document provides a summary of the macro implementation for the SAR Logic, intended for the analog integration engineer. The deliverables are provided in this directory.
+Each subfolder is self-contained: GDS, LEF, lib, netlist, SDF, SPEF, DEF, mag, metrics, `config.yaml`, `macro_summary.md`.
 
-## File Deliverables
-- **GDS**: `gds/` (Layout for integration)
-- **LEF**: `lef/` (Abstract for top-level routing)
-- **DEF**: `def/` (Design Exchange Format)
-- **LIB**: `lib/` (Timing and power models across corners)
-- **SPEF**: `spef/` (Parasitics)
-- **Netlist**: `nl/` (Gate-level netlist)
-- **SDF**: `sdf/` (Standard Delay Format)
+| Variant | Die (um) | Area (um²) | Util | Setup WS (ns) | Hold WS (ns) | DRC/LVS errors |
+|---|---|---|---|---|---|---|
+| A_136x154_util45 | 136 x 154 | 20,966 | 82% | 12.17 | 0.33 | 0/0 |
+| B_75x430 | 75 x 430 | 32,250 | 56% | 13.46 | 0.28 | 0/0 |
+| C_71x430 | 71 x 430 | 30,530 | 60% | 14.03 | 0.32 | 0/0 |
 
-## Key Metrics & Physical Characteristics
+## 19 ns (~1 MS/s) variants - timing closed at all corners, all simulations pass at 19 ns
 
-### Area
-- **Die Area**: 34,883.1 um²
-- **Core Area**: 26,370.9 um²
-- **Standard Cell Utilization**: 47.1%
-- **Dimensions (Die Bbox)**: 178.025 x 195.945 um
+| Variant | Die (um) | Area (um²) | Util | ss Setup WS (ns) | Hold WS (ns) | DRC/LVS |
+|---|---|---|---|---|---|---|
+| A_136x154_util45_19ns | 136 x 154 | 20,966 | 75% | 5.09 | 0.30 | 0/0 |
+| B_75x430_19ns | 75 x 430 | 32,250 | 54% | 2.41 | 0.28 | 0/0 |
+| C_71x430_19ns | 71 x 430 | 30,530 | 56% | 4.67 | 0.30 | 0/0 |
 
-### Timing (Worst Case across corners)
-- **Setup WNS (Worst Negative Slack)**: 0.00 ns (Setup Met - Margin: +13.20 ns)
-- **Hold WNS**: 0.00 ns (Hold Met - Margin: +0.29 ns)
-- **Setup/Hold Violations**: 0
-
-### Power
-- **Total Power**: ~1.49 mW
-- **Internal Power**: ~0.92 mW
-- **Switching Power**: ~0.57 mW
-- **Leakage Power**: ~0.58 uW
-- **Worst IR Drop**: ~0.03 mV
-
-### Physical Verification
-- **DRC Errors**: 0
-- **LVS Errors**: 0
-- **Antenna Violations**: 0
-
-The macro is DRC and LVS clean and passes all timing constraints. It is ready for top-level analog integration.
+The 40 ns variants (A/B/C) are timing-closed at 40 ns (~0.5 MS/s) only; at 19 ns their ss corner fails. Use the `_19ns` variants for 1 MS/s.
+Variant C 40 ns simulations: `../variants/C_71x430/sim`.
